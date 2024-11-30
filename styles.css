@@ -1,0 +1,58 @@
+
+.body{
+    background-image: url("source/01.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+.solicitud{
+    font-size: 50;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+  .caja{
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 3px solid #000000;
+    padding: 10px;
+    background-color: rgb(255, 223, 245);
+  }
+
+  @media (min-width: 768px) {
+    .responsivo{
+        font-size: 80px;
+    }
+    .solicitud{
+        font-size: 60px;
+    }
+    .caja{
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .responsivo{
+        font-size: 80px;
+    }
+    .solicitud{
+        font-size: 60px;
+    }
+    .caja{
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .responsivo{
+        font-size: 75px;
+    }
+    .solicitud{
+        font-size: 60px;
+    }
+    .caja{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+  }
